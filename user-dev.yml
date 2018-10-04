@@ -6,8 +6,6 @@ spring:
     username: root
   jpa:
     show-sql: true
-    hibernate:
-      ddl-auto: update
   rabbitmq:
     host: 192.168.99.100
     password: guest
