@@ -8,7 +8,7 @@ spring:
     username: root
 zuul:
 #全部服务忽略敏感头（全部服务都可以传递cookie）
-  sensitive-headers:
+  sensitive-headers:      
   routes:
     myProduct:
       path: /myProduct/**
